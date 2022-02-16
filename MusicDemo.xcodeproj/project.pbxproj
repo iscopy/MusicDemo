@@ -17,6 +17,10 @@
 		85F50AE227BB38CB00662A86 /* MusicDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F50AE127BB38CB00662A86 /* MusicDemoTests.swift */; };
 		85F50AEC27BB38CB00662A86 /* MusicDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F50AEB27BB38CB00662A86 /* MusicDemoUITests.swift */; };
 		85F50AEE27BB38CB00662A86 /* MusicDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F50AED27BB38CB00662A86 /* MusicDemoUITestsLaunchTests.swift */; };
+		85F50AFC27BC943600662A86 /* 排骨教主 - 牵丝戏.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85F50AFB27BC943600662A86 /* 排骨教主 - 牵丝戏.mp3 */; };
+		85F50AFE27BC945D00662A86 /* 多多poi - 02的爱恋（Feat.约谈人参）（翻自 约谈人参）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85F50AFD27BC945D00662A86 /* 多多poi - 02的爱恋（Feat.约谈人参）（翻自 约谈人参）.mp3 */; };
+		85F50B0027BC948400662A86 /* 等什么君 - 岁月神偷（翻自 金玟岐）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 85F50AFF27BC948400662A86 /* 等什么君 - 岁月神偷（翻自 金玟岐）.mp3 */; };
+		85F50B0327BC979B00662A86 /* MusicUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F50B0227BC979B00662A86 /* MusicUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		85F50AE727BB38CB00662A86 /* MusicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F50AEB27BB38CB00662A86 /* MusicDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDemoUITests.swift; sourceTree = "<group>"; };
 		85F50AED27BB38CB00662A86 /* MusicDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		85F50AFB27BC943600662A86 /* 排骨教主 - 牵丝戏.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "排骨教主 - 牵丝戏.mp3"; sourceTree = "<group>"; };
+		85F50AFD27BC945D00662A86 /* 多多poi - 02的爱恋（Feat.约谈人参）（翻自 约谈人参）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "多多poi - 02的爱恋（Feat.约谈人参）（翻自 约谈人参）.mp3"; sourceTree = "<group>"; };
+		85F50AFF27BC948400662A86 /* 等什么君 - 岁月神偷（翻自 金玟岐）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "等什么君 - 岁月神偷（翻自 金玟岐）.mp3"; sourceTree = "<group>"; };
+		85F50B0227BC979B00662A86 /* MusicUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,8 @@
 		85F50AC627BB38CA00662A86 /* MusicDemo */ = {
 			isa = PBXGroup;
 			children = (
+				85F50B0127BC978100662A86 /* utils */,
+				85F50AFA27BC915000662A86 /* raw */,
 				85F50AC727BB38CA00662A86 /* AppDelegate.swift */,
 				85F50AC927BB38CA00662A86 /* SceneDelegate.swift */,
 				85F50ACB27BB38CA00662A86 /* ViewController.swift */,
@@ -128,6 +138,24 @@
 				85F50AED27BB38CB00662A86 /* MusicDemoUITestsLaunchTests.swift */,
 			);
 			path = MusicDemoUITests;
+			sourceTree = "<group>";
+		};
+		85F50AFA27BC915000662A86 /* raw */ = {
+			isa = PBXGroup;
+			children = (
+				85F50AFF27BC948400662A86 /* 等什么君 - 岁月神偷（翻自 金玟岐）.mp3 */,
+				85F50AFD27BC945D00662A86 /* 多多poi - 02的爱恋（Feat.约谈人参）（翻自 约谈人参）.mp3 */,
+				85F50AFB27BC943600662A86 /* 排骨教主 - 牵丝戏.mp3 */,
+			);
+			path = raw;
+			sourceTree = "<group>";
+		};
+		85F50B0127BC978100662A86 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				85F50B0227BC979B00662A86 /* MusicUtils.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +262,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F50AFE27BC945D00662A86 /* 多多poi - 02的爱恋（Feat.约谈人参）（翻自 约谈人参）.mp3 in Resources */,
+				85F50AFC27BC943600662A86 /* 排骨教主 - 牵丝戏.mp3 in Resources */,
 				85F50AD727BB38CB00662A86 /* LaunchScreen.storyboard in Resources */,
 				85F50AD427BB38CB00662A86 /* Assets.xcassets in Resources */,
+				85F50B0027BC948400662A86 /* 等什么君 - 岁月神偷（翻自 金玟岐）.mp3 in Resources */,
 				85F50ACF27BB38CA00662A86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F50B0327BC979B00662A86 /* MusicUtils.swift in Sources */,
 				85F50AD227BB38CA00662A86 /* MusicDemo.xcdatamodeld in Sources */,
 				85F50ACC27BB38CA00662A86 /* ViewController.swift in Sources */,
 				85F50AC827BB38CA00662A86 /* AppDelegate.swift in Sources */,
